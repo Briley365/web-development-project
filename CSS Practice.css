@@ -1,3 +1,131 @@
+/* trying to use this for responsive design but cant get it to work*/
+@media (min-width: 320px){
+  #form{
+    width: 500px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: #008B8B;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: left;
+  }
+  
+  #form button{
+    padding: 15px;
+    margin-top: 15px;
+    width: 100%;
+    background-color: #d0ffeb;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+  }
+}
+@media (min-width: 480px){
+  #form{
+    width: 500px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: #008B8B;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: left;
+  }
+  
+  #form button{
+    padding: 15px;
+    margin-top: 15px;
+    width: 100%;
+    background-color: #d0ffeb;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+  }
+}
+@media only screen and (min-width: 600px){
+  #form{
+    width: 500px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: #008B8B;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: left;
+  }
+  
+  #form button{
+    padding: 15px;
+    margin-top: 15px;
+    width: 100%;
+    background-color: #d0ffeb;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+  }
+}
+@media (min-width: 801px){
+  #form{
+    width: 500px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: #008B8B;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: left;
+  }
+  
+  #form button{
+    padding: 15px;
+    margin-top: 15px;
+    width: 100%;
+    background-color: #d0ffeb;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+  }
+}
+@media (min-width: 1025px){
+  #form{
+    width: 500px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: #008B8B;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: left;
+  }
+  
+  #form button{
+    padding: 15px;
+    margin-top: 15px;
+    width: 100%;
+    background-color: #d0ffeb;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+  }
+}
+@media (min-width: 1281px){
+  #form{
+    width: 500px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: #008B8B;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: left;
+  }
+  
+  #form button{
+    padding: 15px;
+    margin-top: 15px;
+    width: 100%;
+    background-color: #d0ffeb;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+  }
+}
+
 /* The code below is used to design the navigation bar. */
 .topnav {
     background-color: #000;
@@ -6,10 +134,12 @@
   .topnav ul{
     background-color: #000;
     overflow: hidden;
+    text-align: center;
   }
   .topnav li{
     float: left;
     overflow: hidden;
+    align-items: center;
   }
   .topnav a {
     color: #FFF;
@@ -70,6 +200,7 @@ body {
   width: 50%;
   height: 400px;
   display: none;
+  margin: 0 auto;
 }
 /* Used to display each slide using animation */
 img.displaySlide{
@@ -78,22 +209,34 @@ img.displaySlide{
   animation-duration: 1.5s;
 }
 /* Used to design buttons for slideshow. */
-.slider button{
+.slider span{
+  display: flex;
   position: absolute;
   top: 50%;
-  font-size: 10px;
+  justify-content: space-between;
   background-color: hsla(0, 0%, 0%, 0.5);
   color: #FFF;
   border: none;
   cursor: pointer;
-  transform: translateY(-50%)
+  transform: translateY(-50%);
 }
 
-.previous{
+
+.prev {
+  position: absolute;
+  top: 30%;
   left: 0;
+  padding: 50px;
+  font-size: 35px;
+  line-height: 40px;
 }
 .next {
+  position: absolute;
+  top: 30%;
   right: 0;
+  padding: 50px;
+  font-size: 35px;
+  line-height: 40px;
 }
 .Link-button{
   background-color: #008B8B;
@@ -110,6 +253,7 @@ img.displaySlide{
   
 }
 /* Following code sed to design contact form. */
+
 #form{
   width: 500px;
   margin: 20vh auto 0 auto;
