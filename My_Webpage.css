@@ -1,0 +1,297 @@
+/* trying to use this for responsive design but cant get it to work*/
+@media (min-width: 320px){
+  #form{
+    width: 500px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: #008B8B;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: left;
+  }
+  
+  #form button{
+    padding: 15px;
+    margin-top: 15px;
+    width: 100%;
+    background-color: #d0ffeb;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+  }
+}
+@media (min-width: 480px){
+  #form{
+    width: 500px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: #008B8B;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: left;
+  }
+  
+  #form button{
+    padding: 15px;
+    margin-top: 15px;
+    width: 100%;
+    background-color: #d0ffeb;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+  }
+}
+@media only screen and (min-width: 600px){
+  #form{
+    width: 500px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: #008B8B;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: left;
+  }
+  
+  #form button{
+    padding: 15px;
+    margin-top: 15px;
+    width: 100%;
+    background-color: #d0ffeb;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+  }
+}
+@media (min-width: 801px){
+  #form{
+    width: 500px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: #008B8B;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: left;
+  }
+  
+  #form button{
+    padding: 15px;
+    margin-top: 15px;
+    width: 100%;
+    background-color: #d0ffeb;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+  }
+}
+@media (min-width: 1025px){
+  #form{
+    width: 500px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: #008B8B;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: left;
+  }
+  
+  #form button{
+    padding: 15px;
+    margin-top: 15px;
+    width: 100%;
+    background-color: #d0ffeb;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+  }
+}
+@media (min-width: 1281px){
+  #form{
+    width: 500px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: #008B8B;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: left;
+  }
+  
+  #form button{
+    padding: 15px;
+    margin-top: 15px;
+    width: 100%;
+    background-color: #d0ffeb;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+  }
+}
+
+/* The code below is used to design the navigation bar. */
+.topnav {
+    background-color: #000;
+    overflow: hidden;
+  }
+  .topnav ul{
+    background-color: #000;
+    overflow: hidden;
+    text-align: center;
+  }
+  .topnav li{
+    float: left;
+    overflow: hidden;
+    align-items: center;
+  }
+  .topnav a {
+    color: #FFF;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /*Used to alter look of each selection on the nav bar when hovering over them. */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Used to show which page is active. */
+  .topnav a.active {
+    background-color: #008B8B;
+    color: white;
+  }
+  /*The following code is used to create the dark cyan colored border around each page.*/
+body {
+  border-width: 100%;
+  height: 100%; 
+  margin: 0;
+  padding: 0;
+  border: 10px solid #008B8B;
+}
+/* The following is for altering text elements. */
+  p {
+    color: #000;
+    padding: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+  h2{
+    text-align: center;
+
+  }
+  h3 {
+ font-family: Cambria;
+ text-align: left;
+ padding: 5px;
+  }
+/* Used to wrap text around my portrait image and give some padding around it */
+  .Portrait{
+    float: left;
+    padding: 15px;
+  }
+/*Following rules are for designing the slidshow and the images within it.*/
+.slider {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider img{
+  width: 50%;
+  height: 400px;
+  display: none;
+  margin: 0 auto;
+}
+/* Used to display each slide using animation */
+img.displaySlide{
+  display: block;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+/* Used to design buttons for slideshow. */
+.slider span{
+  display: flex;
+  position: absolute;
+  top: 50%;
+  justify-content: space-between;
+  background-color: hsla(0, 0%, 0%, 0.5);
+  color: #FFF;
+  border: none;
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+
+
+.prev {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  padding: 50px;
+  font-size: 35px;
+  line-height: 40px;
+}
+.next {
+  position: absolute;
+  top: 30%;
+  right: 0;
+  padding: 50px;
+  font-size: 35px;
+  line-height: 40px;
+}
+.Link-button{
+  background-color: #008B8B;
+  border-radius: 10px;
+  height: 100px;
+  width: 300px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 40%;
+}
+/* used for fade animation of slideshow */
+@keyframes fade {
+  from {opacity: .5}
+  to {opacity: 1}
+  
+}
+/* Following code sed to design contact form. */
+
+#form{
+  width: 750px;
+  margin: 20vh auto 0 auto;
+  padding: 20px;
+  background-color: #008B8B;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: left;
+}
+
+#form button{
+  padding: 15px;
+  margin-top: 15px;
+  width: 100%;
+  background-color: #d0ffeb;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+}
+
+.Input-rules{
+  display: flex;
+  flex-direction: column;
+}
+.Input-rules input{
+  border: 4px solid #FFF;
+  border-radius: 4px;
+  display: block;
+  font-size: 14px;
+  padding: 10px;
+}
+.Input-rules input:focus {
+  outline: 0;
+}
+.Input-rules.correct input{
+  border-color: #FF0000;
+}
+.Input-rules.incorrect input{
+  border-color: rgb(127, 255, 168);
+}
