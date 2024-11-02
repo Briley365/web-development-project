@@ -80,7 +80,7 @@ const port = 3000;
 app.use(express.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
 
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/index.html'); // send HTML file on GET request
+    res.sendFile(__dirname + '/Contact.html'); // send HTML file on GET request
 });
 //used to display that the server saved the username that was used
 app.post('/', (req, res) => {
