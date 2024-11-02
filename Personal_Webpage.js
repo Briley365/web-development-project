@@ -82,11 +82,23 @@ app.use(express.urlencoded({ extended: true })); // for parsing application/x-ww
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html'); // send HTML file on GET request
 });
-
+//used to display that the server saved the username that was used
 app.post('/', (req, res) => {
-    const username = req.body.username; // access form data
+    const username = req.body.Name; // access form data
     // Add validation logic here
-    res.send(`Username is $bharre12`);
+    res.send(`Username is ${Name}`);
+});
+//used to display that the server saved the email that was used
+app.post('/', (req, res) => {
+    const username = req.body.Email; // access form data
+    // Add validation logic here
+    res.send(`Username is ${Email}`);
+});
+//used to display that the server saved the phone number that was used
+app.post('/', (req, res) => {
+    const username = req.body.Phone; // access form data
+    // Add validation logic here
+    res.send(`Username is ${Phone}`);
 });
 
 app.listen(port, () => {
