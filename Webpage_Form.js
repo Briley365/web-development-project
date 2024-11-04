@@ -21,5 +21,5 @@ app.post('/submit-form', (req, res) => {
 });
 //Shows the website that the server is running on
 app.listen(port, () => {
-    console.log(`Server running on https://briley365.github.io/web-development-project/${port}`);
+    console.log(`Server running on https://briley365.github.io/web-development-project/Contact.html${port}`);
 });
