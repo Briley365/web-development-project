@@ -5,7 +5,7 @@ const port = 3000; //port being used
 
 app.use(express.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
 
-app.get('/', (req, res) => {
+app.get('https://briley365.github.io/web-development-project/', (req, res) => {
     res.sendFile(__dirname + '/Contact.html'); // send HTML file on GET request
 });
 app.post('/submit-form', (req, res) => {
