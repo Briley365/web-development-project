@@ -1,7 +1,7 @@
 //server side code for form submission using node.js
 const express = require('express');
 const app = express();
-const port = process.env.PORT || 4000; //port being used
+const port = process.env.PORT || 5000; //port being used
 
 app.use(express.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
 
