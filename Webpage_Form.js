@@ -17,7 +17,7 @@ app.post('/submit-form', (req, res) => {
     res.send(`Email is ${Email}`);
 //used to display the phone number that was used
     const Phone = req.body.Phone; // access form data
-    res.send(`Phone number is ${Phone}. I've recieved your info and I'll be in touch soon.`);
+    res.send(`Phone number is ${Phone}. I've received your info and I'll be in touch soon.`);
 });
 //Shows the website that the server is running on
 app.listen(port, () => {
