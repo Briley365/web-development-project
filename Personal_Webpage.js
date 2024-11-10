@@ -1,3 +1,4 @@
+// Client side code.
 // Image slideshow code
 const slides = document.querySelectorAll(".slides img");
 let slideIndex = 0;
