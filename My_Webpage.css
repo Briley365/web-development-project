@@ -1,4 +1,6 @@
-/* trying to use this for responsive design but cant get it to work*/
+/* This is what was improved for Project Milestone 3 as I
+got my form and the button on my contact and home page 
+to work on different screen sizes to improve responsivness and user experience. */
 @media screen and (max-width: 320px){
   #form{
     margin: 20vh auto 0 auto;
