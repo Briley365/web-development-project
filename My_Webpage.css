@@ -1,128 +1,234 @@
 /* trying to use this for responsive design but cant get it to work*/
-@media (min-width: 320px){
+@media screen and (max-width: 320px){
   #form{
-    width: 500px;
     margin: 20vh auto 0 auto;
     padding: 20px;
     background-color: #008B8B;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 20px;
     text-align: left;
+    width: 90%;
+    height: 90%
   }
   
   #form button{
     padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 15px;
-    width: 100%;
     background-color: #d0ffeb;
     color: #000;
     border: none;
     border-radius: 5px;
+    width: 100%;
+    height: 90%
+  }
+  .Link-button{
+    background-color: #008B8B;
+    border-radius: 10px;
+    height: 50px;
+    width: 20%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 40%;
   }
 }
-@media (min-width: 480px){
+@media only screen and  (max-width: 480px){
   #form{
-    width: 500px;
-    margin: 20vh auto 0 auto;
     padding: 20px;
+    margin: 20vh auto 0 auto;
     background-color: #008B8B;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 20px;
     text-align: left;
+    width: 90%;
+    height: 90%
   }
   
   #form button{
     padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 15px;
-    width: 100%;
     background-color: #d0ffeb;
     color: #000;
     border: none;
     border-radius: 5px;
+    width: 100%;
+    height: 90%
+  }
+  .Link-button{
+    background-color: #008B8B;
+    border-radius: 10px;
+    height: 50px;
+    width: 20%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 40%;
   }
 }
-@media only screen and (min-width: 600px){
+@media screen and (max-width: 600px){
   #form{
-    width: 500px;
-    margin: 20vh auto 0 auto;
     padding: 20px;
+    margin: 20vh auto 0 auto;
     background-color: #008B8B;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 20px;
     text-align: left;
+    width: 90%;
+    height: 90%
   }
   
   #form button{
     padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 15px;
-    width: 100%;
     background-color: #d0ffeb;
     color: #000;
     border: none;
     border-radius: 5px;
+    width: 100%;
+    height: 90%
+  }
+  .Link-button{
+    background-color: #008B8B;
+    border-radius: 10px;
+    height: 50px;
+    width: 20%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 40%;
   }
 }
-@media (min-width: 801px){
+@media screen and (max-width: 801px){
   #form{
-    width: 500px;
-    margin: 20vh auto 0 auto;
     padding: 20px;
+    margin: 20vh auto 0 auto;
     background-color: #008B8B;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 20px;
     text-align: left;
+    width: 90%;
+    height: 90%
   }
   
   #form button{
     padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 15px;
-    width: 100%;
     background-color: #d0ffeb;
     color: #000;
     border: none;
     border-radius: 5px;
+    width: 100%;
+    height: 90%
+  }
+  .Link-button{
+    background-color: #008B8B;
+    border-radius: 10px;
+    height: 50px;
+    width: 20%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 40%;
   }
 }
-@media (min-width: 1025px){
+@media screen and (max-width: 1025px){
   #form{
-    width: 500px;
-    margin: 20vh auto 0 auto;
     padding: 20px;
+    margin: 20vh auto 0 auto;
     background-color: #008B8B;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 20px;
     text-align: left;
+    width: 90%;
+    height: 90%
   }
   
   #form button{
     padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 15px;
-    width: 100%;
     background-color: #d0ffeb;
     color: #000;
     border: none;
     border-radius: 5px;
+    width: 100%;
+    height: 90%
+  }
+  .Link-button{
+    background-color: #008B8B;
+    border-radius: 10px;
+    height: 50px;
+    width: 20%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 40%;
   }
 }
-@media (min-width: 1281px){
+@media screen and (max-width: 1281px){
   #form{
-    width: 500px;
-    margin: 20vh auto 0 auto;
     padding: 20px;
+    margin: 20vh auto 0 auto;
     background-color: #008B8B;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 20px;
     text-align: left;
+    width: 90%;
+    height: 90%
   }
   
   #form button{
     padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 15px;
-    width: 100%;
     background-color: #d0ffeb;
     color: #000;
     border: none;
     border-radius: 5px;
+    width: 100%;
+    height: 90%
+  }
+  .Link-button{
+    background-color: #008B8B;
+    border-radius: 10px;
+    height: 50px;
+    width: 20%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 40%;
+  }
+}
+@media screen and (max-width: 2500px){
+  #form{
+    padding: 20px;
+    margin: 20vh auto 0 auto;
+    background-color: #008B8B;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: left;
+    width: 90%;
+    height: 90%
+  }
+  
+  #form button{
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    background-color: #d0ffeb;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 90%
+  }
+  .Link-button{
+    background-color: #008B8B;
+    border-radius: 10px;
+    height: 50px;
+    width: 40%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    margin: auto;
   }
 }
 
@@ -239,6 +345,7 @@ img.displaySlide{
   font-size: 35px;
   line-height: 40px;
 }
+/* This is here incase it's needed for future use
 .Link-button{
   background-color: #008B8B;
   border-radius: 10px;
@@ -247,14 +354,15 @@ img.displaySlide{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-left: 40%;
 }
+  */
 /* used for fade animation of slideshow */
 @keyframes fade {
   from {opacity: .5}
   to {opacity: 1}
   
 }
-/* Following code sed to design contact form. */
-
+/* Following code was used to design contact form. I left it as a way to have the design available for future use.*/
+/*
 #form{
   width: 750px;
   margin: 20vh auto 0 auto;
@@ -274,7 +382,7 @@ img.displaySlide{
   border: none;
   border-radius: 5px;
 }
-
+*/
 .Input-rules{
   display: flex;
   flex-direction: column;
